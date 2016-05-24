@@ -1,0 +1,32 @@
+.one{
+	display: inline;
+	float: left;
+	position: relative;
+	height: 25%;
+	width: 25%;
+	color: black;
+}
+.two {
+	display: inline;
+	float: left;
+	position: relative;
+	height: 25%;
+	width: 25%;
+	color: brown;
+}
+.three{
+	display: inline;
+	float: left;
+	position: relative;
+	height: 25%;
+	width: 25%;
+	color: red;
+}
+.four{
+	display: inline;
+	float: left;
+	position: relative;
+	height: 25%;
+	width: 25%;
+	color: yellow;
+}

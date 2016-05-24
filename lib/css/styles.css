@@ -1,32 +1,62 @@
+body, html{
+	margin: 0;
+    padding: 0;
+    position: absolute;
+    background: transparent;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
 .one{
+	margin: 0;
+    padding: 0;
 	display: inline;
-	float: left;
-	position: relative;
-	height: 25%;
-	width: 25%;
-	color: black;
+    float: left;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    background: black;
+    z-index: 1;
 }
 .two {
-	display: inline;
-	float: left;
-	position: relative;
-	height: 25%;
-	width: 25%;
-	color: brown;
+	margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    background: brown;
+    z-index: 1;
 }
 .three{
+	margin: 0;
+    padding: 0;
 	display: inline;
-	float: left;
-	position: relative;
-	height: 25%;
-	width: 25%;
-	color: red;
+    float: left;
+    position: relative;
+    height: 50%;
+    width: 50%;
+	background: red;
+	z-index: 1;
 }
 .four{
+	margin: 0;
+    padding: 0;
 	display: inline;
-	float: left;
-	position: relative;
-	height: 25%;
-	width: 25%;
-	color: yellow;
+    float: left;
+    position: relative;
+    height: 50%;
+    width: 50%;
+	background: yellow;
+	z-index: 1;
+}
+.blas {
+	z-index: 2;
+	position: absolute;
+	height: 50px;
+	width:50px;
+	color: black;
+	top: 20px;
+	left: 20px;
 }
